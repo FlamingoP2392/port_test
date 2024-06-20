@@ -53,3 +53,113 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #9f76b4;
 }
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline 8px;
+  color: aliceblue;
+  text-decoration-color:#9f76b4;
+  overflow: hidden;
+  border-right: .15em solid #222;
+  padding-bottom: 5%;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s steps(40, end);
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+    border-color: #333;
+  } 
+}
+.text h3 {
+  font-size: .8em;
+  color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #9f76b4;
+  padding: 2px;
+  border: none;
+  border-radius: 50px;
+}
+.text h4 {
+  font-size: .6em;
+  color: aliceblue;
+  margin-top: 0px;
+  margin-left: 1em;
+  margin-bottom: 3px;
+}
+.text p {
+  margin-top: 5px;
+  font-size: .4em;
+  color:aliceblue;
+  margin-left: 1.5em;
+}
+.text hr {
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: center;
+  height: 2px;
+  background-color: #9f76b4;
+}
+
+button {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #9f76b4;
+  color: aliceblue;
+  font-family: prompt;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+#content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;  /* ทำให้การเปลี่ยนแปลงเป็นไปอย่างนุ่มนวล */
+  padding: 0 20px; /* ตั้งค่าการ padding ด้านข้างเพื่อให้พื้นที่ว่าง */
+  background-color: #ffffff;
+  border: 1px solid #333;
+}
+#study {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;  /* ทำให้การเปลี่ยนแปลงเป็นไปอย่างนุ่มนวล */
+  padding: 0 20px; /* ตั้งค่าการ padding ด้านข้างเพื่อให้พื้นที่ว่าง */
+  background-color: #ffffff;
+  border: 1px solid #333;
+}
+#content p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+#syudy p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+#content img {
+  display: flex;
+  text-align: center;
+  border: 2px solid #9f76b4;
+  border-radius: 8px;
+  width: 50%;
+}
+#content.show {
+  max-height: 100%; /* กำหนดความสูงสูงสุดให้พอดีกับคอนเทนต์ */
+  padding: 20px;
+}
+#study.show {
+  max-height: 100%; /* กำหนดความสูงสูงสุดให้พอดีกับคอนเทนต์ */
+  padding: 20px;
+}
