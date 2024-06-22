@@ -194,7 +194,7 @@ button {
   width: 45%;
 }
 #project.show {
-  max-height: 100%; /* กำหนดความสูงสูงสุดให้พอดีกับคอนเทนต์ */
+  max-height: 1000%; /* กำหนดความสูงสูงสุดให้พอดีกับคอนเทนต์ */
   padding: 20px;
 }
 #study.show {
