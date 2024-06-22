@@ -56,12 +56,12 @@ body {
   .content {
     position: relative;
     display: flex;
-    height: 45%;
+    height: 40%;
   }
   .content2 {
     position: relative;
     display: flex;
-    height: 45%;
+    height: 50%;
     width: 100%;
     flex-wrap: wrap; /* เพิ่ม flex-wrap เพื่อให้รายการของ content2 สามารถขึ้นบรรทัดใหม่ได้ */
   }
@@ -74,7 +74,7 @@ body {
     width: 100%;
   }
   .content3 p {
-    font-size: .5em;
+    font-size: .9em;
     text-align: center;
     color: aliceblue;
     text-decoration: underline;
@@ -119,6 +119,8 @@ body {
       color: aliceblue;
       margin-top: -1px;
       margin-bottom: 3px;
+      text-decoration: underline 3px;
+      text-decoration-color: #9f76b4;
   }
   .text p {
     margin-top: 0;
@@ -141,7 +143,7 @@ body {
     margin-left: 2%;
     border: solid 5px #9f76b4;
     border-radius: 100px;
-    width: 70%;
+    width: 14em;
     margin-top: 2%;
     margin-bottom: 5px;
   }

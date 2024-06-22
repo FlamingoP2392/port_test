@@ -53,3 +53,107 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #9f76b4;
 }
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline 8px;
+  color: aliceblue;
+  text-decoration-color:#9f76b4;
+  overflow: hidden;
+  border-right: .15em solid #222;
+  padding-bottom: 3%;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(40, end);
+}
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+      border-color: #333;
+    } 
+}
+.text h3 {
+  font-size: 1.2em;
+  color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline 3px;
+  text-decoration-color: #9f76b4;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+  .text h4 {
+  font-size: .8em;
+  color: aliceblue;
+  margin-top: 0px;
+  margin-left: 2em;
+}
+.text p {
+  margin-top: 5px;
+  font-size: .6em;
+  color:aliceblue;
+  margin-left: 1.5em;
+}
+.text hr {
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  width: 75%;
+  text-align: center;
+  height: 2px;
+  background-color: #9f76b4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  border-radius: 10px;
+  position: relative;
+  transform: translateX(-50%);
+  animation: float 5s ease-in-out infinite; /* เพิ่มอนิเมชั่นให้ไอคอน */
+}
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-8px); /* ปรับค่า translateY ตามความต้องการให้สมูท */
+  }
+}
+
+.icons img#f {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.icons img#l {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.icons img#e {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.icons img#g {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
