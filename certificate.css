@@ -53,3 +53,93 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #9f76b4;
 }
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline 8px;
+  color: aliceblue;
+  text-decoration-color:#9f76b4;
+  overflow: hidden;
+  border-right: .15em solid #222;
+  padding-bottom: 3%;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(40, end);
+}
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+      border-color: #333;
+    } 
+}
+.text h3 {
+  font-size: 1.2em;
+  color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline 3px;
+  text-decoration-color: #9f76b4;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+  .text h4 {
+  font-size: .8em;
+  color: aliceblue;
+  margin-top: 0px;
+  margin-left: 2em;
+}
+.text p {
+  margin-top: 5px;
+  font-size: 10px;
+  color:aliceblue;
+  text-align: center;
+}
+.text hr {
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  width: 75%;
+  text-align: center;
+  height: 2px;
+  background-color: #9f76b4;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: row;
+  width: 100%;
+}
+
+.cer1 {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+  padding: 1px;
+}
+.cer2 {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+  padding: 1px;
+}
+.cer3 {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+  padding: 1px;
+}
+img {
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+  border: solid 3px #9f76b4;
+  border-radius: 10px;
+}
